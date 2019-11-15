@@ -7,7 +7,7 @@ pipeline {
                steps {
                 echo 'Building..'
                    sh label: '', script: 'mvn install'
-            }
+            
             }
         }
         stage('Test') {
