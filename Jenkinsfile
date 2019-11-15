@@ -12,7 +12,7 @@ pipeline {
         
         stage('checkout') {
             steps {
-                git 'https://github.com/makremch/integrationTest'
+                git 'https://github.com/mahdiaouinti/mavengit'
             }
         }
         stage('Test') {
