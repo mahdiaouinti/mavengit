@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage("mvn build") {
             steps {
-               steps {
+               
                 echo 'Building..'
                    sh label: '', script: 'mvn install'
             
