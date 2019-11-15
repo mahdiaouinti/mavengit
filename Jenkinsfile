@@ -14,9 +14,14 @@ pipeline {
             
             }
         }
+        stage('checkout') {
+            steps {
+                git 'https://github.com/makremch/integrationTest'
+            }
+        }
         stage('Test') {
             steps {
-                echo 'Testing..'
+                bat label: '', script: 'mvn test'
             }
         }
         stage('Deploy') {
