@@ -27,7 +27,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
-                 bat label: '', script: 'mvn install deploye'
+                 bat label: '', script: 'mvn deploy'
             }
         }
     
