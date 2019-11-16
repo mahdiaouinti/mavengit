@@ -17,7 +17,7 @@
 		<repository>
 			<id>nexus-releases</id>
 			<name>releases</name>
-			<url>http://172.20.10.8/:8081/nexus/content/repositories/0001/</url>
+			<url>http://172.20.10.8:8081/nexus/content/repositories/0001/</url>
 		</repository>
 	</distributionManagement>
 
